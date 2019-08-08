@@ -44,7 +44,7 @@ add_arg('init_model',        str,   None,              "The init model file of d
 add_arg('output',            str,   "./infer_result",  "The directory the infer result to be saved to.")
 add_arg('input_style',       str,   "A",               "The style of the input, A or B")
 add_arg('norm_type',         str,   "batch_norm",      "Which normalization to used")
-add_arg('use_gpu',           bool,  True,              "Whether to use GPU to train.")
+add_arg('use_gpu',           bool,  False,              "Whether to use GPU to train.")
 add_arg('dropout',           bool,  False,             "Whether to use dropout")
 add_arg('g_base_dims',       int,   64,                "Base channels in CycleGAN generator")
 add_arg('c_dim',             int,   13,                "the size of attrs")
